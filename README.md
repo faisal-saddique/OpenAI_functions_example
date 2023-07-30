@@ -43,4 +43,4 @@ The agent can be customized by:
 
 - [LangChain Documentation](https://python.langchain.com/docs/integrations/tools/zapier)
 - [OpenAI API](https://openai.com/)
-- [Zapier API](https://nla.zapier.com/api/v1/dynamic/playground)https://nla.zapier.com/api/v1/dynamic/playground)
+- [Zapier API](https://nla.zapier.com/api/v1/dynamic/playground)
