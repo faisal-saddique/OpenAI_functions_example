@@ -1,4 +1,4 @@
-# Zapier Langchain Automation
+# Zapier Automation Using Langchain & OpenAI Functions
 
 Welcome to the Zapier Langchain Automation repository! This project aims to demonstrate how to automate tasks using natural language instructions and integrate them with Zapier. It utilizes the OpenAI GPT-3.5 language model to understand and respond to user instructions, and Zapier to execute various actions based on those instructions.
 
@@ -12,6 +12,12 @@ Before running the scripts in this repository, make sure you have the following 
 - requests Python library
 
 Additionally, you need to set up an account on OpenAI and obtain an API key. Also, sign up for a Zapier account and get an API key (Zapier NLA API key).
+
+To ensure you have the required Python libraries, you can now use the `requirements.txt` file provided in this repository. Install the dependencies by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Contents
 
@@ -48,7 +54,12 @@ To run the scripts, follow these steps:
 
    Replace `YOUR_OPENAI_API_KEY` with your actual API key provided by OpenAI.
 
-4. Install the required libraries mentioned in the "Prerequisites" section.
+4. Install the required libraries using the `requirements.txt` file:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 5. Proceed to run the desired script(s) using Python.
 
 ## Examples
@@ -75,4 +86,4 @@ Contributions to this repository are welcome. If you encounter any issues, have 
 
 This project is licensed under the [MIT License](LICENSE).
 
-Thank you for using Zapier Langchain Automation! Happy automating!
+Thank you for using Zapier Langchain Automation! Happy automating!"
