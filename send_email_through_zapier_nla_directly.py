@@ -70,14 +70,15 @@ def send_email_through_zapier(instructions):
         # If the initial GET request to retrieve actions was not successful, print an error message and return None
         print(f"Request failed with status code: {response.status_code}")
 
-# Define the instructions for sending the email
-instructions = "please send a detailed sad email to faisalsaddique04@gmail.com telling him how bad was my day at gym"
+""" # Define the instructions for sending the email
+instructions_local = "please send a detailed sad email to faisalsaddique04@gmail.com telling him how bad was my day at gym"
 
 # Call the send_email_through_zapier function and store the result in 'result'
-result = send_email_through_zapier(instructions=instructions)
+result = send_email_through_zapier(instructions=instructions_local)
 
 # Check if the result is not None (i.e., the request was successful)
 if result:
     # If the request was successful, print a success message and display the result
     print("Request successful!")
     pprint(result)
+ """
